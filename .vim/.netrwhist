@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/lyrong/Qilian_Phone/kernel_3.4.39/drivers/spi'
+let g:netrw_dirhist_2='/home/lyrong/QILIAN_PHONE_KK/viatelecom/product/qilianplus/ltemodem'
+let g:netrw_dirhist_3='/home/lyrong/QILIAN_PHONE_KK/Kernel_Baseline/arch/arm/mach-via/include/mach'
+let g:netrw_dirhist_4='/home/lyrong/QILIAN_KK_P3/Kernel_Baseline/drivers/net/wireless/bcmdhd'
+let g:netrw_dirhist_5='/home/lyrong/QILIAN_KK_P3/external/wpa_supplicant_8/wpa_supplicant'
+let g:netrw_dirhist_6='/home/lyrong/QILIAN_KK_P3/external/wpa_supplicant_8'
+let g:netrw_dirhist_7='/home/lyrong/.vim'
