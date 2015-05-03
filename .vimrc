@@ -36,6 +36,7 @@ Plugin 'taglist.vim'
 Plugin 'wesleyche/SrcExpl'
 Plugin 'genutils'
 Plugin 'lookupfile'
+Plugin 'bling/vim-airline'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -428,6 +429,7 @@ function! AutoLoadTagsAndCscope()
 	endwhile
 endf
 nmap <F7> :call AutoLoadTagsAndCscope()<CR>
+call AutoLoadTagsAndCscope()
 
 " 在指定目录生成filenametags，并使lookupfile将这个文件作为查找源
 function! SetRootOfTheProject(path)
@@ -504,6 +506,36 @@ map <leader>F :FufFile<CR>
 map <leader>f :FufTaggedFile<CR>
 map <leader>g :FufTag<CR>
 map <leader>b :FufBuffer<CR>
+
+"-----------------------------------------------------------------
+
+" plugin - vim-airline
+
+"-----------------------------------------------------------------
+set t_Co=256
+set laststatus=2
+" 使用powerline打过补丁的字体
+let g:airline_powerline_fonts = 1
+" 开启tabline
+let g:airline#extensions#tabline#enabled = 1
+" tabline中当前buffer两端的分隔字符
+let g:airline#extensions#tabline#left_sep = ' '
+" tabline中未激活buffer两端的分隔字符
+let g:airline#extensions#tabline#left_alt_sep = '|'
+" tabline中buffer显示编号
+let g:airline#extensions#tabline#buffer_nr_show = 1
+" 映射切换buffer的键位
+nnoremap [b :bp<CR>
+nnoremap ]b :bn<CR>
+map <leader>1 :b 1<CR>
+map <leader>2 :b 2<CR>
+map <leader>3 :b 3<CR>
+map <leader>4 :b 4<CR>
+map <leader>5 :b 5<CR>
+map <leader>6 :b 6<CR>
+map <leader>7 :b 7<CR>
+map <leader>8 :b 8<CR>
+map <leader>9 :b 9<CR>
 
 "-----------------------------------------------------------------
 
