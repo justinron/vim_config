@@ -37,6 +37,7 @@ Plugin 'wesleyche/SrcExpl'
 Plugin 'genutils'
 Plugin 'lookupfile'
 Plugin 'bling/vim-airline'
+Plugin 'Valloric/YouCompleteMe'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -249,6 +250,13 @@ endif
 
 " Set mapleader
 let mapleader=","
+
+let g:ycm_global_ycm_extra_conf = '/home/justin/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp/ycm/.ycm_extra_conf.py'   "配置默认的ycm_extra_conf.py
+"nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>     "按,jd 会跳转到定义
+nnoremap <leader>jd :YcmCompleter GoToDefinitionElseDeclaration<CR>
+let g:ycm_confirm_extra_conf=0    "打开vim时不再询问是否加载ycm_extra_conf.py配置
+let g:ycm_collect_identifiers_from_tag_files = 1 "使用ctags生成的tags文件
+let g:ycm_register_as_syntastic_checker = 0
 
 " Fast reloading of the .vimrc
 map <silent> <leader>ss :source ~/.vimrc<CR>
