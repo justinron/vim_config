@@ -38,6 +38,7 @@ Plugin 'genutils'
 Plugin 'lookupfile'
 Plugin 'bling/vim-airline'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'kien/ctrlp.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -74,8 +75,8 @@ syntax on                   " 自动语法高亮
 
 let c_space_errors=1
 
-"colorscheme molokai         " 设定配色方案
-colorscheme desert
+colorscheme molokai         " 设定配色方案
+"colorscheme desert
 
 set number                  " 显示行号
 
@@ -150,8 +151,6 @@ setlocal foldlevel=1        " 设置折叠层数为
 " nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
 
                             " 用空格键来开关折叠
-
-
 
 
 
@@ -517,6 +516,20 @@ map <leader>b :FufBuffer<CR>
 
 "-----------------------------------------------------------------
 
+" plugin - ctrlp
+
+"-----------------------------------------------------------------
+let g:ctrlp_match_window = 'bottom,order:btt,min:1,max:10,results:100'
+let g:ctrlp_max_depth = 40
+let g:ctrlp_max_files = 0  "不限制最大文件数
+let g:ctrlp_working_path_mode = 'ra'
+let g:ctrlp_by_filename = 0
+let g:ctrlp_open_multiple_files = 'v'
+"let g:ctrlp_user_command = 'find %s -type f'
+set wildignore+=*/tmp/*,*.so,*.swp,*.cmd,*.o,*.zip " MacOSX/Linux
+
+"-----------------------------------------------------------------
+
 " plugin - vim-airline
 
 "-----------------------------------------------------------------
@@ -544,6 +557,8 @@ map <leader>6 :b 6<CR>
 map <leader>7 :b 7<CR>
 map <leader>8 :b 8<CR>
 map <leader>9 :b 9<CR>
+" 关闭当前所在buffer
+map <leader>d :bdelete<CR>
 
 "-----------------------------------------------------------------
 
