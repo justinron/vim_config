@@ -39,6 +39,7 @@ Plugin 'lookupfile'
 Plugin 'bling/vim-airline'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'kien/ctrlp.vim'
+Plugin 'EasyGrep'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
