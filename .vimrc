@@ -560,6 +560,8 @@ map <leader>8 :b 8<CR>
 map <leader>9 :b 9<CR>
 " 关闭当前所在buffer
 map <leader>d :bdelete<CR>
+" 切换到之前所在的buffer
+map <leader><TAB> :b #<CR>
 
 "-----------------------------------------------------------------
 
