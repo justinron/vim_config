@@ -74,6 +74,8 @@ filetype plugin indent on    " required
 
 syntax on                   " 自动语法高亮
 
+set expandtab               " 将制表符扩展为空格
+
 let c_space_errors=1
 
 colorscheme molokai         " 设定配色方案
@@ -82,6 +84,7 @@ colorscheme molokai         " 设定配色方案
 set number                  " 显示行号
 
 set cursorline              " 突出显示当前行
+set cursorcolumn            " 突出显示当前列
 
 set ruler                   " 打开状态栏标尺
 
