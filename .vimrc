@@ -269,6 +269,11 @@ map <silent> <leader>ee :e ~/.vimrc<CR>
 " When .vimrc is edited, reload it
 autocmd bufwritepost .vimrc source ~/.vimrc
 
+" 启用:Man命令查看各类man信息
+source $VIMRUNTIME/ftplugin/man.vim
+" 定义:Man命令查看各类man信息的快捷键
+nmap <Leader>man :Man 3 <cword><CR>
+
 " Buffers操作快捷方式!
 
 nnoremap <C-RETURN> :bnext<CR>
