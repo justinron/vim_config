@@ -41,6 +41,7 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'kien/ctrlp.vim'
 Plugin 'EasyGrep'
 Plugin 'scrooloose/nerdcommenter'
+Plugin 'gcmt/wildfire.vim'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -360,7 +361,16 @@ nnoremap <leader>4 :set filetype=php<CR>
 
 let html_use_css=1
 
-
+"-----------------------------------------------------------------
+" wildfire.vim设置: 结对文本选择
+"-----------------------------------------------------------------
+" This selects the next closest text object.
+map <SPACE> <Plug>(wildfire-fuel)
+" This selects the previous closest text object.
+vmap <S-SPACE> <Plug>(wildfire-water)
+" By default, Wildfire selects any of the text objects i', i", i), i], i}, ip
+" and it. You can decide the ones to consider with the following option:
+let g:wildfire_objects = ["i'", 'i"', "i)", "i]", "i}", "i>", "ip", "it"]
 
 " Python 文件的一般设置，比如不要 tab 等
 
