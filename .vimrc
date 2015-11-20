@@ -417,7 +417,7 @@ autocmd filetype php set dictionary=$VIMFILES/dict/php.dict
 "-----------------------------------------------------------------
 " ctags database path设置
 "-----------------------------------------------------------------
-"	set tags=/via-telecom/linux-3.4.39/tags	"ctags DB为自己的路径
+"	set tags=/local/linux-3.4.39/tags	"ctags DB为自己的路径
 
 
 "-----------------------------------------------------------------
@@ -429,7 +429,7 @@ autocmd filetype php set dictionary=$VIMFILES/dict/php.dict
 	set nocsverb					"verbose off
 
 	" cscope DB位置设置, 使用绝对路径
-"	cs add /via-telecom/linux-3.4.39/cscope.out
+"	cs add /local/linux-3.4.39/cscope.out
 	set csverb						"verbose off
 
 " 实现对上级目录中的ctags和cscope的目录递归查找和自动载入
