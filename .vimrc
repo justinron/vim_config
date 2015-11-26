@@ -577,6 +577,10 @@ map <leader>6 :b 6<CR>
 map <leader>7 :b 7<CR>
 map <leader>8 :b 8<CR>
 map <leader>9 :b 9<CR>
+" switch to previous buffer
+map <leader>, :bp<CR>
+" switch to next buffer
+map <leader>. :bn<CR>
 " 关闭当前所在buffer
 map <leader>d :bdelete<CR>
 " 切换到之前所在的buffer
