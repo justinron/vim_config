@@ -42,6 +42,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'EasyGrep'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'gcmt/wildfire.vim'
+Plugin 'SuperTab'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
