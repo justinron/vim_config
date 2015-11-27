@@ -366,7 +366,7 @@ let html_use_css=1
 "-----------------------------------------------------------------
 " This selects the next closest text object.
 " map <SPACE> <Plug>(wildfire-fuel)
-map <TAB> <Plug>(wildfire-fuel)
+map <leader><SPACE> <Plug>(wildfire-fuel)
 " This selects the previous closest text object.
 " vmap <S-SPACE> <Plug>(wildfire-water)
 vmap <BS> <Plug>(wildfire-water)
