@@ -43,6 +43,7 @@ Plugin 'EasyGrep'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'gcmt/wildfire.vim'
 Plugin 'SuperTab'
+Plugin 'flazz/vim-colorschemes'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
