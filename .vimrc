@@ -285,6 +285,13 @@ nnoremap <C-RETURN> :bnext<CR>
 nnoremap <C-S-RETURN> :bprevious<CR>
 
 
+"-----------------------------------------------------------------
+" snipMate Setting
+"-----------------------------------------------------------------
+" 1.remap the trigger key from <tab> to <C-\> for the confliction with SuperTab
+" 2.should comment the trigger key configuration in snipMate/after/plugin/snipMate.vim
+ino <silent> <C-\> <c-r>=TriggerSnippet()<cr>
+snor <silent> <C-\> <esc>i<right><c-r>=TriggerSnippet()<cr>
 
 " Tab操作快捷方式!
 
