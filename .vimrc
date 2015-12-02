@@ -45,6 +45,7 @@ Plugin 'gcmt/wildfire.vim'
 Plugin 'SuperTab'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'snipMate'
+Plugin 'terryma/vim-multiple-cursors'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
