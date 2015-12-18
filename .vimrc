@@ -37,7 +37,7 @@ Plugin 'wesleyche/SrcExpl'
 Plugin 'genutils'
 Plugin 'lookupfile'
 Plugin 'bling/vim-airline'
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 Plugin 'kien/ctrlp.vim'
 Plugin 'EasyGrep'
 Plugin 'scrooloose/nerdcommenter'
@@ -46,6 +46,7 @@ Plugin 'SuperTab'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'snipMate'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'tpope/vim-surround'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
