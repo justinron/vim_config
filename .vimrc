@@ -47,6 +47,7 @@ Plugin 'flazz/vim-colorschemes'
 Plugin 'snipMate'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
+Plugin 'jiangmiao/auto-pairs'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
