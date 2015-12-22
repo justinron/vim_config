@@ -449,7 +449,7 @@ autocmd filetype php set dictionary=$VIMFILES/dict/php.dict
 
 " 实现对上级目录中的ctags和cscope的目录递归查找和自动载入
 function! AutoLoadTagsAndCscope()
-	let max = 10
+	let max = 15
 	let dir	= './'
 	let i = 0
 	let break = 0
