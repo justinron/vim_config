@@ -668,6 +668,8 @@ endif
 	let g:SrcExpl_jumpKey = "<ENTER>"		"跳转（jump）至相应定义definition
 	let g:SrcExpl_gobackKey = "<SPACE>"		"back
 	let g:SrcExpl_isUpdateTags = 0			"tag file update = off
+    let g:SrcExpl_prevDefKey = "<F11>"      "Set "<F11>”key for displaying the previous definition in the jump list
+    let g:SrcExpl_nextDefKey = "<F12>"      "Set "<F12>”key for displaying the next definition in the jump list
 
 ":cs find {querytype} {name}
 
