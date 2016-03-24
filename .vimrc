@@ -44,10 +44,10 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'gcmt/wildfire.vim'
 Plugin 'SuperTab'
 Plugin 'flazz/vim-colorschemes'
-Plugin 'snipMate'
+Plugin 'justinron/snipmate.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
-Plugin 'jiangmiao/auto-pairs'
+Plugin 'justinron/auto-pairs'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
