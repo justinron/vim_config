@@ -154,7 +154,9 @@ set foldenable              " 开始折叠
 
 set nofoldenable              " 启动vim时关闭折叠
 
-set foldmethod=syntax       " 设置语法折叠
+set foldmethod=manual       " 设置手动折叠
+
+" set foldmethod=syntax       " 设置语法折叠
 
 set foldcolumn=0            " 设置折叠区域的宽度
 
