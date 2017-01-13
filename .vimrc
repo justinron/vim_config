@@ -156,6 +156,9 @@ set nofoldenable              " 启动vim时关闭折叠
 
 set foldmethod=manual       " 设置手动折叠
 
+au BufWinLeave * silent mkview    " 关闭文件时自动保存视图
+au BufWinEnter * silent loadview  " 打开文件时自动载入视图
+
 " set foldmethod=syntax       " 设置语法折叠
 
 set foldcolumn=0            " 设置折叠区域的宽度
