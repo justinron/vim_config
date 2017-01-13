@@ -152,7 +152,9 @@ set statusline=\ %<%F[%1*%M%*%n%R%H]%=\ %y\ %0(%{&fileformat}\ %{&encoding}\ %c:
 
 set foldenable              " 开始折叠
 
-"set foldmethod=syntax       " 设置语法折叠
+set nofoldenable              " 启动vim时关闭折叠
+
+set foldmethod=syntax       " 设置语法折叠
 
 set foldcolumn=0            " 设置折叠区域的宽度
 
