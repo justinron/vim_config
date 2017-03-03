@@ -82,7 +82,8 @@ filetype plugin indent on    " required
 
 syntax on                   " 自动语法高亮
 
-set expandtab               " 将制表符扩展为空格
+" set expandtab               " 将制表符扩展为空格
+set noexpandtab
 
 let c_space_errors=1
 
@@ -96,11 +97,11 @@ set cursorcolumn            " 突出显示当前列
 
 set ruler                   " 打开状态栏标尺
 
-set shiftwidth=4            " 设定 << 和 >> 命令移动时的宽度为 4
+" set shiftwidth=4            " 设定 << 和 >> 命令移动时的宽度为 4
 
-set softtabstop=4           " 使得按退格键时可以一次删掉 4 个空格
+" set softtabstop=4           " 使得按退格键时可以一次删掉 4 个空格
 
-set tabstop=4               " 设定 tab 长度为 4
+set tabstop=8               " 设定 tab 长度为 8
 
 set nobackup                " 覆盖文件时不备份
 
@@ -396,7 +397,7 @@ let g:wildfire_objects = ["i'", 'i"', "i)", "i]", "i}", "i>", "ip", "it"]
 
 " Python 文件的一般设置，比如不要 tab 等
 
-autocmd FileType python set tabstop=4 shiftwidth=4 expandtab
+" autocmd FileType python set tabstop=4 shiftwidth=4 expandtab
 
 autocmd FileType python map <F12> :!python %<CR>
 
