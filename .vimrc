@@ -419,11 +419,11 @@ let javascript_enable_domhtmlcss=1
 
 " 设置字典 ~/.vim/dict/文件的路径
 
-autocmd filetype javascript set dictionary=$VIMFILES/dict/javascript.dict
+" autocmd filetype javascript set dictionary=$VIMFILES/dict/javascript.dict
 
-autocmd filetype css set dictionary=$VIMFILES/dict/css.dict
+" autocmd filetype css set dictionary=$VIMFILES/dict/css.dict
 
-autocmd filetype php set dictionary=$VIMFILES/dict/php.dict
+" autocmd filetype php set dictionary=$VIMFILES/dict/php.dict
 
 
 
