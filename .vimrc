@@ -397,7 +397,7 @@ let g:wildfire_objects = ["i'", 'i"', "i)", "i]", "i}", "i>", "ip", "it"]
 
 " Python 文件的一般设置，比如不要 tab 等
 
-" autocmd FileType python set tabstop=4 shiftwidth=4 expandtab
+autocmd FileType python set tabstop=4 shiftwidth=4 expandtab
 
 autocmd FileType python map <F12> :!python %<CR>
 
