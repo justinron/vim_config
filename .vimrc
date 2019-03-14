@@ -164,6 +164,8 @@ set foldcolumn=0            " set the fold width
 
 setlocal foldlevel=1        " set the fold layer limit
 
+set colorcolumn=73
+
 " set foldclose=all
 
 " nnoremap <space> @=((foldclosed(line('.')) < 0) ? 'zc' : 'zo')<CR>
@@ -388,7 +390,7 @@ autocmd FileType python map <F12> :!python %<CR>
 
 
 
-" Ctrl+c to copy in Visual Mode 
+" Ctrl+c to copy in Visual Mode
 
 vmap <C-c> "+y
 
@@ -554,6 +556,17 @@ map <leader>6 :b 6<CR>
 map <leader>7 :b 7<CR>
 map <leader>8 :b 8<CR>
 map <leader>9 :b 9<CR>
+map <leader>10 :b 10<CR>
+map <leader>11 :b 11<CR>
+map <leader>12 :b 12<CR>
+map <leader>13 :b 13<CR>
+map <leader>14 :b 14<CR>
+map <leader>15 :b 15<CR>
+map <leader>16 :b 16<CR>
+map <leader>17 :b 17<CR>
+map <leader>18 :b 18<CR>
+map <leader>19 :b 19<CR>
+map <leader>20 :b 20<CR>
 " switch to previous buffer
 map <leader>, :bp<CR>
 " switch to next buffer
