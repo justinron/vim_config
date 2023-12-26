@@ -164,7 +164,7 @@ set foldcolumn=0            " set the fold width
 
 setlocal foldlevel=1        " set the fold layer limit
 
-set colorcolumn=73
+set colorcolumn=100
 
 " set foldclose=all
 
