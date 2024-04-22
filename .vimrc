@@ -48,6 +48,7 @@ Plugin 'justinron/snipmate.vim'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'tpope/vim-surround'
 Plugin 'justinron/auto-pairs'
+Plugin 'chrisbra/Colorizer'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
